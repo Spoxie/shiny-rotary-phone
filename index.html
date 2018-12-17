@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+        <link rel="shortcut icon" type="image/png" href="kuva/favicon.png"/>
+
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -87,41 +89,41 @@
             <div class="peliul">
                 <div id="linkit">
 
-                <div class="pelili" id="fattlefield" onmouseover="activateFf()" onmouseout="disableFf()">
-                    <a class="linkit" href="#fattlefield">
-                        <div class="center">
+                <div class="pelili fattlefield" onmouseover="activateFf()" onmouseout="disableFf()">
+                    <a class="linkit fattlefield" href="#fattlefield">
+                        <div class="center" id="fattlefield">
                             <h2>Fattlefield</h2>
                         </div>
                     </a>
                 </div>
 
-                <div class="pelili" id="rugby" onmouseover="activateUrl()" onmouseout="disableUrl()">
+                <div class="pelili url" id="rugby" onmouseover="activateUrl()" onmouseout="disableUrl()">
                     <a class="linkit" href="#rugby">
-                        <div class="center">
+                        <div class="center" id="url">
                             <h2>Underwater Rugby League</h2>
                         </div>
                     </a>
                 </div>
 
-                <div class="pelili" id="dadwars" onmouseover="activateDw()" onmouseout="disableDw()">
+                <div class="pelili dw" id="dadwars" onmouseover="activateDw()" onmouseout="disableDw()">
                     <a class="linkit" href="#dadwars">
-                        <div class="center">
+                        <div class="center" id="dw">
                             <h2>Dad Wars</h2>
                         </div>
                     </a>
                 </div>
 
-                <div class="pelili" id="pimp" onmouseover="activateTp()" onmouseout="disableTp()">
+                <div class="pelili tp" id="pimp" onmouseover="activateTp()" onmouseout="disableTp()">
                     <a class="linkit" href="#pimp">
-                        <div class="center">
+                        <div class="center" id="tp">
                             <h2>The pimp</h2>
                         </div>
                     </a>
                 </div>
 
-                <div class="pelili" id="nfw" onmouseover="activateNfw()" onmouseout="disableNfw()">
+                <div class="pelili nfw" id="nfw" onmouseover="activateNfw()" onmouseout="disableNfw()">
                     <a class="linkit" href="#nfw">
-                        <div class="center">
+                        <div class="center" id="nfw">
                          <h2>Need for Weed</h2>
                         </div>
                     </a>
@@ -204,6 +206,25 @@
 
 </div>
 
+<div id="footer">
+
+    <div id="adv">
+        <img id="ffad" src="kuva/ad1.png" alt="all new dlc for fattlefield now available">
+    </div>
+
+    <div id="bottom">
+        <div id="social">
+            <img src="kuva/facebook.png">
+            <img src="kuva/twitter.png">
+            <img src="kuva/instagram.png">
+            <p>Connect with us now!</p>
+        </div>
+
+        <div id="legal">
+            <p>bla bla copyright 2018(C)</p>
+        </div>
+    </div>
+    
 <script>
         function responsiveSize() {
             var x = document.getElementById("myTopnav");
@@ -221,7 +242,7 @@
         }
 
         function disableFf(){
-            document.getElementById("ffteksti").style.visibility = "hidden";    
+            document.getElementById("ffteksti").style.visibility = "hidden";
         }
 
         function activateUrl(){
