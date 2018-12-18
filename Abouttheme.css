@@ -168,12 +168,23 @@ video {
   margin: auto;
   padding: 50px;
 }
+#profiili{
+  width:400px;
+  height:500px;
+  
+    border-radius: 50%;
+  
+}
+.quote{
+  text-align:center;
+
+}
 
 .flex-container {
     width: 100%;
     height:80%;
     text-align:center;
-    background-color:black;
+    
     
     justify-content: center;
     
@@ -185,17 +196,16 @@ video {
 
 .aboutcard{
 
-  display: inline-block;
-   margin:0px 30px 30px 30px;
+    display: inline-block;
+    margin:0px 30px 30px 30px;
     background-color:blue;
     width:500px;
     text-align:center;
     height:100%;
     word-spacing: 0;
-   
-    
-    
+
 }
+
     @media screen and (max-width: 600px) {
       .aboutcard{
         width: 80%;
