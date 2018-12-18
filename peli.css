@@ -143,14 +143,23 @@ a#logohead {
 }
 
 
-#videocontainer {
-    z-index: -5;
-    position: absolute;
-    width: 100%;
+@media screen and (min-width: 800px) {
+  #videocontainer {
+      z-index: -5;
+      position: absolute;
+      width: 100%;
+  }
+
+  video {
+      width: 100%;
+  }
 }
 
-video {
-    width: 100%;
+@media screen and (max-width: 800px) {
+
+  #videocontainer {
+      display: none;
+  }
 }
 
 #ghost {
@@ -206,8 +215,44 @@ video {
     width: 50%;
 }
 
-#facttext {
+.facttext {
     width: 90%;
     font-family: 'Montserrat', sans-serif;
-    text-align: left;
+    text-align: center;
+}
+
+#factmain {
+  width: 90%;
+}
+
+#factsecond {
+  width: 90%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+#factthird {
+  width: 90%
+}
+
+#factmain, #factsecond, #factthird {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.fact2 {
+  width: 90%;
+}
+
+.facttext {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+#fact3 {
+  width: 50%;
 }
