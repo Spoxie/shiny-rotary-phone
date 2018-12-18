@@ -312,7 +312,6 @@ div.center:hover {
 }
 
 #fattlefield:hover {    
-    
     background: -moz-linear-gradient(top, rgb(53, 53, 53) 0%, rgba(255,255,255,0) 100%), url("kuva/fattlefieldbanner.png"); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, rgb(53, 53, 53) 0%,rgba(255,255,255,0) 100%), url("kuva/fattlefieldbanner.png"); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, rgb(53, 53, 53) 0%,rgba(255,255,255,0) 100%), url("kuva/fattlefieldbanner.png"); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -321,11 +320,75 @@ div.center:hover {
     background-repeat: no-repeat;
     background-position:right top;
     background-size: cover;
+}
 
+#url {
+    background: url("kuva/urlbanner.png");
+    background-repeat: no-repeat;
+    background-position:right top;
+    background-size: cover;
+}
+
+#url:hover {    
+    background: -moz-linear-gradient(top, rgb(53, 53, 53) 0%, rgba(255,255,255,0) 100%), url("kuva/urlbanner.png"); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgb(53, 53, 53) 0%,rgba(255,255,255,0) 100%), url("kuva/urlbanner.png"); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgb(53, 53, 53) 0%,rgba(255,255,255,0) 100%), url("kuva/urlbanner.png"); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c7c7c', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+
+    background-repeat: no-repeat;
+    background-position:right top;
+    background-size: cover;
+}
+
+#dw {
+    background: url("kuva/dwbanner.png");
+    background-repeat: no-repeat;
+    background-position:right top;
+    background-size: cover;
+}
+
+#dw:hover {    
+    background: -moz-linear-gradient(top, rgb(53, 53, 53) 0%, rgba(255,255,255,0) 100%), url("kuva/dwbanner.png"); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgb(53, 53, 53) 0%,rgba(255,255,255,0) 100%), url("kuva/dwbanner.png"); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgb(53, 53, 53) 0%,rgba(255,255,255,0) 100%), url("kuva/dwbanner.png"); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c7c7c', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+
+    background-repeat: no-repeat;
+    background-position:right top;
+    background-size: cover;
+}
+
+#tp {
+    background: url("kuva/tpbanner.png");
+    background-repeat: no-repeat;
+    background-position:right top;
+    background-size: cover;
+}
+
+#tp:hover {    
+    background: -moz-linear-gradient(top, rgb(53, 53, 53) 0%, rgba(255,255,255,0) 100%), url("kuva/tpbanner.png"); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgb(53, 53, 53) 0%,rgba(255,255,255,0) 100%), url("kuva/tpbanner.png"); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgb(53, 53, 53) 0%,rgba(255,255,255,0) 100%), url("kuva/tpbanner.png"); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c7c7c', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+
+    background-repeat: no-repeat;
+    background-position:right top;
+    background-size: cover;
 }
 
 #nfw {
     background-image: url("kuva/needforweedbanner.png");
+    background-repeat: no-repeat;
+    background-position:right top;
+    background-size: cover;
+}
+
+#nfw:hover {
+    background: -moz-linear-gradient(top, rgb(53, 53, 53) 0%, rgba(255,255,255,0) 100%), url("kuva/needforweedbanner.png"); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgb(53, 53, 53) 0%,rgba(255,255,255,0) 100%), url("kuva/needforweedbanner.png"); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgb(53, 53, 53) 0%,rgba(255,255,255,0) 100%), url("kuva/needforweedbanner.png"); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c7c7c', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+
     background-repeat: no-repeat;
     background-position:right top;
     background-size: cover;
