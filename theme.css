@@ -307,10 +307,12 @@ div.center:hover {
     text-align: center;
 }
 
-.fattlefield {
-    background-image: url("kuva/fattlefieldbanner.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+.fattlefield:hover {
+    background: -moz-linear-gradient(top, rgb(53, 53, 53) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgb(53, 53, 53) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgb(53, 53, 53) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c7c7c', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+
 }
 
 #fattlefield {
