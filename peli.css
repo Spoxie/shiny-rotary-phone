@@ -3,6 +3,7 @@ body {
   margin: 0 0 0 0;
 }
 
+
 .topnav {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfff4+0,ededed+40,ffffff+100 */
   background: #fcfff4; /* Old browsers */
@@ -91,7 +92,7 @@ body {
   display: block;
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+/* When the screen is less than 800 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 800px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
@@ -99,6 +100,11 @@ body {
   .topnav a.icon {
     float: right;
     display: block;
+  }
+
+  #kauppa {
+      width: 100%;
+      float: left;
   }
 }
 
@@ -122,11 +128,17 @@ body {
     width: 100%;
     text-align: left;
   }
+
+  #kauppa {
+      width: 100%;
+      float: left;
+  }
 } 
 
 #kauppa {
-  float:right;
-}
+      width: 10%;
+      float:right;
+      }
 
 #header {
   width: 100%;
@@ -143,6 +155,7 @@ a#logohead {
 }
 
 
+
 @media screen and (min-width: 800px) {
   #videocontainer {
       z-index: -5;
@@ -153,12 +166,24 @@ a#logohead {
   video {
       width: 100%;
   }
+
+  #mobile {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 800px) {
 
   #videocontainer {
       display: none;
+  }
+
+  #mobile {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    z-index: -5;
+    margin-top: 50px;
   }
 }
 
@@ -203,7 +228,7 @@ a#logohead {
     text-align: center;
 }
 
-#facthead {
+.facthead {
     text-align: center;
     color: black;
     margin: 0 auto;
@@ -211,10 +236,34 @@ a#logohead {
     padding: 20px;
 }
 
-#fact1 {
-    width: 50%;
+@media screen and (min-width: 800px) {
+    #fact3{
+        width: 50%;
+    }
+
+    #fact1{
+      width: 50%;
+  }
+  
+  
+    .fact2 {
+      width: 90%;
+    }
 }
 
+@media screen and (max-width: 800px) {
+  #fact3{
+    width: 70%;
+  }
+
+  #fact1{
+    width: 70%;
+  }
+
+  .fact2 {
+    width: 95%;
+  }
+}
 .facttext {
     width: 90%;
     font-family: 'Montserrat', sans-serif;
@@ -243,18 +292,10 @@ a#logohead {
   padding-bottom: 30px;
 }
 
-.fact2 {
-  width: 90%;
-}
-
 .facttext {
   width: 100%;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-}
-
-#fact3 {
-  width: 50%;
 }
 
 @media screen and (min-width: 800px) {
@@ -299,11 +340,11 @@ a#logohead {
   padding: 20px;
 }
 
-#socialimg {
+.socialimg {
   width: 50px;
 }
 
-#sc {
+.sc {
   width: 50px;
   padding-left: 20px;
   padding-right: 20px;
@@ -311,4 +352,34 @@ a#logohead {
 
 #legal {
   color: #5e5e5e
+}
+
+#buynow {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+a#buybutton {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  width: 30%;
+  height: 50px;
+  background: #212121;
+}
+
+a#buybutton:hover {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bcbcbc+0,222222+100 */
+background: rgb(188,188,188); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(188,188,188,1) 0%, rgba(34,34,34,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(188,188,188,1) 0%,rgba(34,34,34,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(188,188,188,1) 0%,rgba(34,34,34,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bcbcbc', endColorstr='#222222',GradientType=0 ); /* IE6-9 */
+color: black;
+}
+
+#buy {
+  margin: 0 auto;
 }
