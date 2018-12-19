@@ -136,7 +136,7 @@
 }
 
 
-#ghost {
+.ghost {
     height: 55px;
 }
 #ghast {
@@ -247,11 +247,11 @@ text-align: center;
       padding: 20px;
   }
   
-  #socialimg {
+  .socialimg {
       width: 50px;
   }
   
-  #sc {
+  .sc {
       width: 50px;
       padding-left: 20px;
       padding-right: 20px;
