@@ -205,6 +205,12 @@ a#logohead {
     height: 10vh;
 }
 
+#pimplogo {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
 #fattlefieldlogo {
     width: 90%;
     margin: 0 auto;
