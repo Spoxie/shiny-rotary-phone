@@ -186,8 +186,9 @@ video {
   
   /* Fake image */
   .fakeimg {
+    margin:0 auto;
     background-color: #aaa;
-    width: 90%;
+    width: 60%;
     padding: 20px 20px 20px 20px;
   }
   
