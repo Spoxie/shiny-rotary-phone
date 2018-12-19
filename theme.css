@@ -379,7 +379,7 @@ div.center:hover {
     background-size: cover;
 }
 
-#nfw {
+.nfw {
     background-image: url("kuva/needforweedbanner.png");
     background-repeat: no-repeat;
     background-position:right top;
@@ -461,3 +461,4 @@ div.center:hover {
 #legal {
     color: #5e5e5e
 }
+

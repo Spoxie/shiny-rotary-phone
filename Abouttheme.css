@@ -168,7 +168,7 @@ video {
   margin: auto;
   padding: 50px;
 }
-#profiili{
+.profiili{
   width:400px;
   height:500px;
   
@@ -228,11 +228,11 @@ video {
       padding: 20px;
   }
   
-  #socialimg {
+  .socialimg {
       width: 50px;
   }
   
-  #sc {
+  .sc {
       width: 50px;
       padding-left: 20px;
       padding-right: 20px;
