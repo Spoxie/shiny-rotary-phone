@@ -165,7 +165,13 @@ video {
     padding: 50px;
 }
 
+#logohead {
+  margin: 0 auto;
+}
 
+a#logohead {
+  height: 26px;
+}
 
 
 
