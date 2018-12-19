@@ -205,6 +205,35 @@ video {
     display: table;
     clear: both;
   }
+  #bottom {
+    margin: 20px auto auto auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #212121;
+    color: white;
+}
+
+#social {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#socialimg {
+    width: 50px;
+}
+
+#sc {
+    width: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#legal {
+    color: #5e5e5e
+}
   
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */

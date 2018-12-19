@@ -79,6 +79,7 @@
    <div id="ghast"></div>
 
     <div class="row">
+
         <div class="leftcolumn">
 
 
@@ -156,3 +157,95 @@
 
         </div>
     </div>
+
+    <div id="bottom">
+        <div id="social">
+            <a id="socialimg" href="https://facebook.com" target="_blank" rel="noopener noreferrer"><img id="sc" src="kuva/facebook.png"></a>
+            <a id="socialimg" href="https://twitter.com" target="_blank" rel="noopener noreferrer"><img id="sc" src="kuva/twitter.png"></a>
+            <a id="socialimg" href="https://instagram.com" target="_blank" rel="noopener noreferrer"><img id="sc" src="kuva/insta.png"></a>
+            <p>Connect with us now!</p>
+        </div>
+
+        <div id="legal">
+            <p>ValtteriMatias Games® 2018</p>
+            <p>VM Games® 2018</p>
+        </div>
+    </div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+
+</div>
+<script>
+function responsiveSize() {
+var x = document.getElementById("myTopnav");
+if (x.className === "topnav") {
+x.className += " responsive";
+document.getElementById("kauppa").style.float = "left";
+} else {
+x.className = "topnav";
+document.getElementById("kauppa").style.float = "";
+}
+}
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+coll[i].addEventListener("click", function() {
+this.classList.toggle("active");
+var content = this.nextElementSibling;
+if (content.style.maxHeight){
+content.style.maxHeight = null;
+} else {
+content.style.maxHeight = content.scrollHeight + "px";
+} 
+});
+}
+
+function activateFf(){
+document.getElementById("ffteksti").style.visibility = "visible";
+}
+
+function disableFf(){
+document.getElementById("ffteksti").style.visibility = "hidden";
+}
+
+function activateUrl(){
+document.getElementById("urlteksti").style.visibility = "visible";
+}
+
+function disableUrl(){
+document.getElementById("urlteksti").style.visibility = "hidden";    
+}
+
+function activateDw(){
+document.getElementById("dwteksti").style.visibility = "visible";
+}
+
+function disableDw(){
+document.getElementById("dwteksti").style.visibility = "hidden";    
+}
+
+function activateTp(){
+document.getElementById("tpteksti").style.visibility = "visible";
+}
+
+function disableTp(){
+document.getElementById("tpteksti").style.visibility = "hidden";    
+}
+
+function activateNfw(){
+document.getElementById("nfwteksti").style.visibility = "visible";
+}
+
+function disableNfw(){
+document.getElementById("nfwteksti").style.visibility = "hidden";    
+}
+
+</script>
